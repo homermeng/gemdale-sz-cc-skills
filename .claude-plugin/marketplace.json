@@ -40,6 +40,15 @@
         "./skills/web-artifacts-builder",
         "./skills/webapp-testing"
       ]
+    },
+    {
+      "name": "content-writing-skills",
+      "description": "Collection of content writing skills including blog posts, marketing copy, social media content, and technical writing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/content-creator"
+      ]
     }
   ]
 }
