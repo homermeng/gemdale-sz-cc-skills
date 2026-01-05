@@ -1,13 +1,13 @@
 ---
 name: content-creator
-description: Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creating social media content, analyzing brand voice, optimizing SEO, planning content calendars, or when user mentions content creation, brand voice, SEO optimization, social media marketing, or content strategy.
+description: 金地上海地区公司投资拓展部，“金地资管汇”微信公众号写作技能.
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Homer Meng
   category: marketing
   domain: content-marketing
-  updated: 2025-10-20
+  updated: 2026-1-5
   python-tools: brand_voice_analyzer.py, seo_optimizer.py
   tech-stack: SEO, social-media-platforms
 ---
