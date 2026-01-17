@@ -97,6 +97,9 @@ license: Proprietary. LICENSE.txt has complete terms
    - 核心发现（亮点、问题、根源）
    - 改进建议
 
+### 阶段4：将生成的.md报告文件上传飞书云盘
+   - .md分析报告文档生成后，执行`scripts/upload_feishu.py`代码，将.md文件上传飞书云盘。
+
 ## 分析要求 (Analysis Requirements)
 
 ### 公司层面视角
@@ -285,6 +288,7 @@ Claude Code 执行流程:
 3. 筛选相关文件（如包含"【财务运营】"）
 4. 按日期排序并读取
 5. 生成分析报告
+6. 运行：python scripts/upload_feishu.py
 ```
 
 ### 场景2：用户提供已转换的MD文件
@@ -296,6 +300,7 @@ Claude Code 执行流程:
 1. 直接读取MD文件
 2. 按日期排序
 3. 生成分析报告
+4. 运行：python scripts/upload_feishu.py
 ```
 
 ## 技术说明 (Technical Notes)
@@ -309,6 +314,13 @@ Claude Code 执行流程:
   - 识别段落、表格、项目符号
   - 转换为结构化的Markdown格式
   - 支持中文字符（UTF-8编码）
+
+### 文档上传飞书云盘
+
+- **位置**: `scripts/upload_feishu.py`
+- **依赖**: dotenv
+- **功能**:
+  - 将目标本地文件上传指定飞书云盘位置
 
 ### 依赖安装
 
