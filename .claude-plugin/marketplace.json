@@ -43,11 +43,12 @@
     },
     {
       "name": "gemdale-sz-skills",
-      "description": "Collection of skills for Gemdale Shanghaitech's use case including knowledge base Q&A, meeting summarization, and content creation",
+      "description": "Collection of skills for Gemdale Shenzhen's use case including punchlisting report generation and operations analysis.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/punchlisting-report"
+        "./skills/punchlisting-report",
+        "./skills/ops-analysis"
       ]
     }
   ]
